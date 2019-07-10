@@ -38,7 +38,7 @@ namespace assign_3
                 }
                 file.Close();
                 Console.WriteLine($"File has {counter} lines.");
-                //post condition of whikle is:
+                //post condition of while is:
                // We have now data member which is assign_3 queue
                 PlayingwithStacks.Run(names);
             }
