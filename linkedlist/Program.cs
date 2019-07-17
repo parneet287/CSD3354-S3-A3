@@ -10,20 +10,31 @@ namespace linkedlist
     {
         static void Main(string[] args)
         {
-
+          var a= new LinkedList();
+          a.CreateLinkedList();
         }
     }
-
-     class LinkedList
-    {
-        Node Head;
-
-    }
-
+}
+    
      class Node
     {
-        public string studentname;
-        public Node next;
-        public Node prev;
+        public string nodeName;
+        public Node nextLink;
+        public Node prevLink;
     }
-}
+     class LinkedList
+        {
+            Node Head,Orange,Tangerine,Tail;
+            public void CreateLinkedList()
+            {
+                 Head = new Node();
+                    Orange = new Node();
+                    Tangerine= new Node();
+                    Tail= Tangerine;
+                    Head.nextLink = Orange;
+                    Console.WriteLine("yeah....!!!");
+                    Console.ReadLine();
+                 
+            }
+        }
+
