@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{90724AD1-76FD-4024-BFC2-FFE9074CA255}</ProjectGuid>
+    <ProjectGuid>{B42BB249-6430-45AE-942C-284A39131966}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>linkedlist</RootNamespace>
-    <AssemblyName>linkedlist</AssemblyName>
+    <RootNamespace>LinkedList</RootNamespace>
+    <AssemblyName>LinkedList</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
